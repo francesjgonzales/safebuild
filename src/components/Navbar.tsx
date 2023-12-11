@@ -8,22 +8,22 @@ export const Navbar = () => {
         {/* Desktop Menu */}
         <div className="navbar__desktop">
           {/* LOGO */}
-          <div>
+          <div className="text-left">
             <Link href="/">
               <h2>LOGO</h2>
             </Link>
           </div>
           <div>
-            <a href="/html/">HTML</a>
+            <Link href="/html/">HTML</Link>
           </div>
           <div>
-            <a href="/css/">CSS</a>
+            <Link href="/css/">CSS</Link>
           </div>
           <div>
-            <a href="/js/">JavaScript</a>
+            <Link href="/js/">JavaScript</Link>
           </div>
           <div>
-            <a href="/python/">Python</a>
+            <Link href="/python/">Python</Link>
           </div>
         </div>
       </div>
