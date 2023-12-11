@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+/* Customized colors */
+
+.body {
+  @apply container mx-auto p-10;
+}
+
+/* START navbar styles */
+.navbar {
+  @apply bg-slate-50 flex fixed top-0 left-0 right-0 p-10;
+}
+
+.navbar__desktop {
+  @apply text-center sm:text-right sm:inline-flex gap-4;
+}
+
+/* START slider styles */
+.slider {
+  @apply container flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto pt-32;
+}
+
+/* START footer styles */
+.footer {
+  @apply w-full left-0 right-0 px-10 py-10 fixed bottom-0 bg-slate-900;
+}
