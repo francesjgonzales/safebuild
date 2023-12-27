@@ -28,7 +28,11 @@
 
 /* START slider styles */
 .slider {
-  @apply container flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-32 text-center;
+  @apply container flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-32 text-center text-white grid justify-items-stretch;
+}
+
+.slider__button {
+  @apply border-solid border-white outline rounded-sm w-24 text-white text-center justify-self-center text-sm;
 }
 
 /* START articles styles */
