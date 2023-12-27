@@ -48,13 +48,21 @@ export const Navbar = () => {
               </Link>
             </div>
             <div className="text-right">
-              <Link href="/news/" onClick={() => setNavbar(!navbar)}>
-                News
+              <Link
+                href="/offered-services/"
+                onClick={() => setNavbar(!navbar)}
+              >
+                Services
               </Link>
             </div>
             <div className="text-right">
               <Link href="/projects/" onClick={() => setNavbar(!navbar)}>
                 Projects
+              </Link>
+            </div>
+            <div className="text-right">
+              <Link href="/news/" onClick={() => setNavbar(!navbar)}>
+                News & Events
               </Link>
             </div>
             <div className="text-right">

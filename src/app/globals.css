@@ -28,7 +28,7 @@
 
 /* START slider styles */
 .slider {
-  @apply container flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto pt-32;
+  @apply container flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto p-32 text-center;
 }
 
 /* START articles styles */
