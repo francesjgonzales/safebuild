@@ -23,11 +23,16 @@
 }
 
 .navbar__desktop {
-  @apply sm:text-left grid sm:flex text-center gap-4;
+  @apply grid md:grid-cols-6 md:gap-48 sm:text-left sm:flex grid-cols-1 gap-12 text-center;
 }
 
 /* START slider styles */
 .slider {
+  @apply container flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto pt-32;
+}
+
+/* START articles styles */
+.articles {
   @apply container flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto pt-32;
 }
 

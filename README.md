@@ -35,6 +35,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Dependencies
+
+[iconify] `npm install --save-dev @iconify/react`
+
+## Credits
+
+[Responsive Navbar by Code with Rita](https://www.youtube.com/watch?v=EtPRSidpxSU)
 [Cannot find module acorn.js](https://stackoverflow.com/questions/73195418/cannot-find-module-acorn-js/73196691#73196691)
 [nextjs](https://www.youtube.com/watch?v=zbYBgy_ChGY)
 [tailwind](https://tailwindcss.com/docs/responsive-design)
