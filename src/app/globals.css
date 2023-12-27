@@ -23,7 +23,7 @@
 }
 
 .navbar__desktop {
-  @apply grid md:grid-cols-6 md:gap-48 sm:text-left sm:flex grid-cols-1 gap-12 text-center;
+  @apply flex justify-between grid-cols-6 gap-12 sm:text-left sm:flex text-center;
 }
 
 /* START slider styles */
