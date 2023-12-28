@@ -18,13 +18,27 @@
 
 /* START Column articles */
 .one-col {
-  @apply grid grid-cols-1 pt-10 place-items-center gap-4;
+  @apply grid grid-cols-1 pt-10 place-items-center gap-6;
 }
 
 .two-col {
-  @apply grid grid-cols-2 pt-10;
+  @apply grid grid-cols-2 pt-10 place-items-center gap-6;
 }
+
+.three-col {
+  @apply grid grid-cols-3 pt-10 place-items-center gap-6;
+}
+
+.four-col {
+  @apply grid md:grid-cols-4 sm:grid grid-cols-2 justify-items-center pt-10 gap-16;
+}
+
 /* Customized colors */
+
+/* Buttons */
+.slider__button {
+  @apply border-solid outline rounded-sm w-32 p-3 text-center justify-self-center text-sm;
+}
 
 /* START Font sizes for all articles */
 .header {
@@ -51,10 +65,6 @@
 /* START slider styles */
 .slider {
   @apply container xl:flex-row flex-col gap-5 relative z-0 mx-auto p-32 text-center text-white grid justify-items-stretch;
-}
-
-.slider__button {
-  @apply border-solid border-white outline rounded-sm w-32 p-3 text-white text-center justify-self-center text-sm;
 }
 
 /* START articles styles */

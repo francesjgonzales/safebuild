@@ -13,20 +13,97 @@ export default async function Home() {
           General Builder under the Licensing of Builders.
         </p>
 
-        <div className="grid grid-cols-4 gap-4 place-items-center pt-10">
-          <div>
+        <div className="four-col">
+          <div className="place-items-baseline">
             <Image
               src="/assets/buildOnly.png"
               width={100}
-              height={80}
+              height={100}
               alt="Build Icon"
             />
-            <p>Build Only</p>
+            <div className="pt-5">
+              <p className="text-center">Build only</p>
+            </div>
           </div>
-          <div>col 2</div>
-          <div>col 3</div>
-          <div>col 4</div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/construction.png"
+              width={100}
+              height={100}
+              alt="Construction Icon"
+            />
+            <div className="pt-5">
+              <p className="text-center">
+                Construction <br />
+                Management
+              </p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/designBuild.png"
+              width={100}
+              height={100}
+              alt="Design & Build Icon"
+            />
+            <div className="pt-5">
+              <p className="text-center">Design & Build</p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/restore.png"
+              width={100}
+              height={100}
+              alt="Restore Icon"
+            />
+            <div className="pt-5">
+              <p className="text-center">
+                Restoration <br /> of Properties <br /> for Conservation
+              </p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/infras.png"
+              width={100}
+              height={100}
+              alt="Infrastructure Icon"
+            />
+            <div className="pt-5">
+              <p className="text-center">
+                Infrastructure <br /> Development
+              </p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/major.png"
+              width={100}
+              height={100}
+              alt="Major upgrade Icon"
+            />
+            <div className="pt-5">
+              <p className="text-center">Major Upgrading</p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/projMngmnt.png"
+              width={100}
+              height={100}
+              alt="Project Management Icon"
+            />
+            <div className="pt-5">
+              <p className="text-center">
+                Project <br /> Management
+              </p>
+            </div>
+          </div>
         </div>
+        <p className="text-sm">
+          <button className="slider__button text-[#D21448]">Learn More</button>
+        </p>
       </section>
       <section className="articles">Projects</section>
       <section className="articles">News and Events</section>
