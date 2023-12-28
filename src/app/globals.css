@@ -11,10 +11,24 @@
   font-family: "Karla", sans-serif;
 }
 
+/* START Margins and Paddings */
+.body {
+  @apply container mx-auto p-10 bg-slate-100;
+}
+
 /* Customized colors */
 
-.body {
-  @apply container mx-auto p-10;
+/* START Font sizes for all articles */
+.header {
+  @apply text-3xl text-rose-600 uppercase text-center;
+}
+
+.header__paragraph {
+  @apply text-xl text-neutral-700 text-center;
+}
+
+.subheader {
+  @apply text-base text-center text-neutral-700;
 }
 
 /* START navbar styles */
@@ -32,7 +46,7 @@
 }
 
 .slider__button {
-  @apply border-solid border-white outline rounded-sm w-24 text-white text-center justify-self-center text-sm;
+  @apply border-solid border-white outline rounded-sm w-32 p-3 text-white text-center justify-self-center text-sm;
 }
 
 /* START articles styles */
@@ -42,5 +56,5 @@
 
 /* START footer styles */
 .footer {
-  @apply w-full left-0 right-0 px-10 py-10 fixed bottom-0 bg-slate-900 text-white;
+  @apply w-full left-0 right-0 px-10 py-10  bottom-0 bg-slate-900 text-white;
 }
