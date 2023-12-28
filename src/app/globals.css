@@ -13,7 +13,7 @@
 
 /* START Margins and Paddings */
 .body {
-  @apply container mx-auto p-10 px-10 bg-slate-100;
+  @apply mx-auto bg-slate-100;
 }
 
 /* START Column articles */
@@ -54,17 +54,21 @@
 }
 
 /* START navbar styles */
-.navbar {
+/* .navbar {
   @apply bg-slate-50 flex fixed top-0 left-0 right-0 p-10;
-}
+} */
+
+/* .navbar__desktop {
+  @apply flex justify-between grid-cols-6 gap-12 sm:text-left sm:flex text-center pb-5;
+} */
 
 .navbar__desktop {
-  @apply flex justify-between grid-cols-6 gap-12 sm:text-left sm:flex text-center pb-5;
+  @apply justify-between grid-cols-6 gap-12 sm:text-left sm:flex text-center pb-5;
 }
 
 /* START slider styles */
 .slider {
-  @apply container xl:flex-row flex-col gap-5 relative z-0 mx-auto p-32 text-center text-white grid justify-items-stretch;
+  @apply xl:flex-row flex-col gap-5 relative z-0 mx-auto p-32 text-center text-white grid justify-items-stretch;
 }
 
 /* START articles styles */

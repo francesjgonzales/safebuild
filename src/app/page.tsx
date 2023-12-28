@@ -105,7 +105,7 @@ export default async function Home() {
           <button className="slider__button text-[#D21448]">Learn More</button>
         </p>
       </section>
-      <section className="articles">Projects</section>
+      <section className="articles mx-auto bg-[#50d71e]">Projects</section>
       <section className="articles">News and Events</section>
       <section className="articles">Contact us and Sign up Newsletter</section>
     </>
