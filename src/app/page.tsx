@@ -5,7 +5,7 @@ export default async function Home() {
   return (
     <>
       <Slider />
-      <section className="articles">
+      <section className="one-col">
         <p className="header">Our Services</p>
         <p className="header__paragraph">
           SafeBuild has been rated by the Construction Authority as a Grade A1
@@ -13,7 +13,7 @@ export default async function Home() {
           General Builder under the Licensing of Builders.
         </p>
 
-        <div className="grid grid-cols-4 gap-4 place-items-center">
+        <div className="grid grid-cols-4 gap-4 place-items-center pt-10">
           <div>
             <Image
               src="/assets/buildOnly.png"
