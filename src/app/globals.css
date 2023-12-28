@@ -28,7 +28,7 @@
 
 /* START slider styles */
 .slider {
-  @apply container xl:flex-row flex-col gap-5 relative z-0 mx-auto p-32 text-center text-white grid justify-items-stretch w-full;
+  @apply container xl:flex-row flex-col gap-5 relative z-0 mx-auto p-32 text-center text-white grid justify-items-stretch;
 }
 
 .slider__button {

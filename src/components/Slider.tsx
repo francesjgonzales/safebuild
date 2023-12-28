@@ -10,6 +10,11 @@ export const Slider = () => {
       <p className="text-sm">
         <button className="slider__button">Learn More</button>
       </p>
+
+      <div>
+        <h1>Our Services</h1>
+        <div className="grid"></div>
+      </div>
     </div>
   );
 };
