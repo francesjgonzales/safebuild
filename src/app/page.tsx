@@ -102,7 +102,7 @@ export default async function Home() {
           </div>
         </div>
         <p className="text-sm">
-          <button className="slider__button text-[#D21448]">Learn More</button>
+          <button className="button__outline text-[#D21448]">Learn More</button>
         </p>
       </section>
 
@@ -192,7 +192,7 @@ export default async function Home() {
               and expertise of our entire team.
             </p>
             <p className="text-sm pt-10">
-              <button className="slider__button text-[#D21448]">
+              <button className="button__outline text-[#D21448]">
                 Learn More
               </button>
             </p>
@@ -314,7 +314,7 @@ export default async function Home() {
                   Cancel
                 </button>
                 <p className="text-sm pt-10">
-                  <button className="slider__button text-[#D21448]">
+                  <button className="button__outline text-[#D21448]">
                     Submit
                   </button>
                 </p>

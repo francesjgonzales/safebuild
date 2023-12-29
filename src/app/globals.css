@@ -36,8 +36,12 @@
 /* Customized colors */
 
 /* Buttons */
-.slider__button {
+.button__outline {
   @apply border-solid outline rounded-sm w-32 p-3 text-center justify-self-center text-sm;
+}
+
+.button__full {
+  @apply rounded-sm w-32 p-3 text-center justify-self-center text-sm;
 }
 
 /* START Font sizes for all articles */
