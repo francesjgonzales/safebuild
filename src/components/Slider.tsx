@@ -7,7 +7,7 @@ export const Slider = () => {
         SafeBuild offers comprehensive services within the construction industry
         and is recognized as one of the leading companies in the field.
       </p>
-      <p className="text-sm">
+      <p className="text-sm pb-6">
         <button className="slider__button">Learn More</button>
       </p>
     </div>
