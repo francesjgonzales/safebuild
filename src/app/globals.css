@@ -26,7 +26,7 @@
 }
 
 .three-col {
-  @apply grid grid-cols-3 pt-10 place-items-center gap-6;
+  @apply grid md:grid-cols-3 sm:grid grid-cols-2 justify-items-center pt-10 gap-16;
 }
 
 .four-col {
@@ -78,6 +78,8 @@
 .articles {
   @apply grid-cols-1 pt-32 mx-auto;
 }
+
+/* START image with text */
 
 /* START footer styles */
 .footer {

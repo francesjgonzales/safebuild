@@ -38,6 +38,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Dependencies
 
 [iconify] `npm install --save-dev @iconify/react`
+[hygraph for data fetching](https://app.hygraph.com/)
+[sanity for data fetching](https://github.com/vercel/next.js/tree/canary/examples/cms-sanity)
 
 ## Credits
 
