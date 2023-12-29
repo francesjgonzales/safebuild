@@ -22,11 +22,11 @@
 }
 
 .two-col {
-  @apply grid grid-cols-2 pt-10 place-items-center gap-6;
+  @apply grid md:grid-cols-2 sm:grid-cols-1 pt-10 place-items-center gap-6;
 }
 
 .three-col {
-  @apply grid md:grid-cols-3 sm:grid grid-cols-2 justify-items-center pt-10 gap-16;
+  @apply grid md:grid-cols-3 sm:grid grid-cols-1 justify-items-center pt-10 gap-16;
 }
 
 .four-col {

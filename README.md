@@ -43,6 +43,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Credits
 
+[data fetching](https://nextjs.org/docs/pages/building-your-application/data-fetching)
 [icons](https://iconify.design/docs/icon-components/react/)
 [Responsive Navbar by Code with Rita](https://www.youtube.com/watch?v=EtPRSidpxSU)
 [Cannot find module acorn.js](https://stackoverflow.com/questions/73195418/cannot-find-module-acorn-js/73196691#73196691)
