@@ -246,9 +246,7 @@ export default async function Home() {
               and we look forward to the opportunities it will bring.
             </p>
             <p className="text-sm pt-10">
-              <button className="slider__button text-[#D21448]">
-                Read More
-              </button>
+              <button className="button__full">Read More</button>
             </p>
           </div>
         </div>
@@ -307,23 +305,11 @@ export default async function Home() {
                 </div>
               </div>
               <div className="mt-6 flex items-center justify-start gap-x-6">
-                <button
-                  type="button"
-                  className="text-sm font-semibold leading-6 text-gray-900"
-                >
-                  Cancel
-                </button>
-                <p className="text-sm pt-10">
-                  <button className="button__outline text-[#D21448]">
+                <p className="text-sm pt-2">
+                  <button className="button__outline-sm text-[#D21448]">
                     Submit
                   </button>
                 </p>
-                <button
-                  type="submit"
-                  className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Save
-                </button>
               </div>
             </div>
           </div>

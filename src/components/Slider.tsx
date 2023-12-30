@@ -8,7 +8,9 @@ export const Slider = () => {
         and is recognized as one of the leading companies in the field.
       </p>
       <p className="text-sm pb-6">
-        <button className="button__outline">Learn More</button>
+        <button className="button__outline hover:bg-white hover:text-[#D21448]">
+          Learn More
+        </button>
       </p>
     </div>
   );

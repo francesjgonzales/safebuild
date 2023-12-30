@@ -37,11 +37,19 @@
 
 /* Buttons */
 .button__outline {
-  @apply border-solid outline rounded-sm w-32 p-3 text-center justify-self-center text-sm;
+  @apply border-solid outline rounded-sm w-24 p-2 text-center justify-self-center text-sm;
+}
+
+.button__outline-sm {
+  @apply border-solid outline rounded-sm w-20 p-2 text-center justify-self-center text-sm;
 }
 
 .button__full {
-  @apply rounded-sm w-32 p-3 text-center justify-self-center text-sm;
+  @apply bg-[#D21448] rounded-sm w-24 p-2 text-center text-white justify-self-center text-sm hover:bg-[#f7d7e0] hover:text-[#D21448] focus:outline-none focus:ring-2 focus:ring-[#D21448] active:bg-[#f7d7e0];
+}
+
+.button__text {
+  @apply rounded-sm w-32 p-2 text-center justify-self-center text-sm;
 }
 
 /* START Font sizes for all articles */
