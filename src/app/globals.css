@@ -34,7 +34,7 @@
 }
 
 .six-col {
-  @apply grid md:grid-cols-6 sm:grid grid-cols-3 justify-items-center pt-10 gap-1;
+  @apply grid md:grid-cols-6 sm:grid grid-cols-3 justify-items-center pt-10 gap-3;
 }
 
 /* Customized colors */

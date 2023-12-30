@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -44,6 +45,74 @@ const page = () => {
           <button className="button__outline-sm text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0]">
             Industrial
           </button>
+        </div>
+        <div className="three-col">
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/institution.jpg"
+              width={518}
+              height={417}
+              alt="Institution SG Image"
+            />
+            <div className="pt-5">
+              <p className="text-center">Institution</p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/institution-1copy.jpg"
+              width={518}
+              height={417}
+              alt="Civil & Infrastructure SG Image"
+            />
+            <div className="pt-5">
+              <p className="text-center">Civil & Infrastructure</p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/institution-2.jpg"
+              width={518}
+              height={417}
+              alt="Hotel & Leisure SG Image"
+            />
+            <div className="pt-5">
+              <p className="text-center">Hotel & Leisure</p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/commercial.jpg"
+              width={518}
+              height={417}
+              alt="Commercial SG Image"
+            />
+            <div className="pt-5">
+              <p className="text-center">Commercial</p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/residential.jpg"
+              width={518}
+              height={417}
+              alt="Residential SG Image"
+            />
+            <div className="pt-5">
+              <p className="text-center">Residential</p>
+            </div>
+          </div>
+          <div className="place-items-baseline">
+            <Image
+              src="/assets/commercial-2.jpg"
+              width={518}
+              height={417}
+              alt="Industrial SG Image"
+            />
+            <div className="pt-5">
+              <p className="text-center">Industrial</p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
