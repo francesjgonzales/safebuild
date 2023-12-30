@@ -33,6 +33,10 @@
   @apply grid md:grid-cols-4 sm:grid grid-cols-2 justify-items-center pt-10 gap-16;
 }
 
+.six-col {
+  @apply grid md:grid-cols-6 sm:grid grid-cols-3 justify-items-center pt-10 gap-1;
+}
+
 /* Customized colors */
 
 /* Buttons */
@@ -41,7 +45,7 @@
 }
 
 .button__outline-sm {
-  @apply border-solid outline rounded-sm w-20 p-2 text-center justify-self-center text-sm;
+  @apply border-solid outline rounded-sm w-24 p-2 text-center justify-self-center text-xs;
 }
 
 .button__full {

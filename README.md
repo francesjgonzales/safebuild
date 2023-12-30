@@ -37,6 +37,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Dependencies
 
+[headlessui](https://headlessui.com/react/transition)
+[heroicons](https://heroicons.com/)
 [iconify] `npm install --save-dev @iconify/react`
 [hygraph for data fetching](https://app.hygraph.com/)
 [sanity for data fetching](https://github.com/vercel/next.js/tree/canary/examples/cms-sanity)
