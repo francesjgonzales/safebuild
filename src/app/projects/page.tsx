@@ -1,3 +1,7 @@
 export default function Page() {
-  return <h1>Projects</h1>;
+  return (
+    <div className="slider__medium bg-top bg-cover bg-[url('/assets/proj-hero-img.jpg')]">
+      <p className="text-3xl">Our Projects</p>
+    </div>
+  );
 }

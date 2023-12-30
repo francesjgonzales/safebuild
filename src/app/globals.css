@@ -83,6 +83,10 @@
   @apply xl:flex-row flex-col gap-5 relative z-0 mx-auto md:p-32 text-center text-white grid justify-items-stretch p-12;
 }
 
+.slider__medium {
+  @apply h-40 xl:flex-row flex-col gap-5 relative z-0 mx-auto md:p-12 text-center text-white grid justify-items-stretch p-12;
+}
+
 /* START articles styles */
 /* .articles {
   @apply container flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto pt-32;
