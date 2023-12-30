@@ -30,7 +30,7 @@
 }
 
 .four-col {
-  @apply grid md:grid-cols-4 sm:grid grid-cols-2 justify-items-center pt-10 gap-16;
+  @apply grid md:grid-cols-4 sm:grid grid-cols-2 justify-items-center py-20 gap-16;
 }
 
 .six-col {

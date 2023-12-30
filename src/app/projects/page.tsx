@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Location } from "@/components";
 
 const page = () => {
   return (
@@ -9,7 +10,7 @@ const page = () => {
       </div>
 
       {/* Button tabs */}
-      <section className="four-col py-5">
+      <section className="four-col bg-white">
         <button className="button__outline text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0]">
           Singapore
         </button>
@@ -115,6 +116,8 @@ const page = () => {
           </div>
         </div>
       </section>
+
+      <Location />
     </div>
   );
 };
