@@ -41,15 +41,15 @@
 
 /* Buttons */
 .button__outline {
-  @apply border-solid outline rounded-sm w-24 p-2 text-center justify-self-center text-sm;
+  @apply border-solid outline rounded-sm p-2 text-center justify-self-center text-sm;
 }
 
 .button__outline-sm {
-  @apply border-solid outline rounded-sm w-24 p-2 text-center justify-self-center text-xs;
+  @apply border-solid outline rounded-sm p-2 text-center justify-self-center text-xs;
 }
 
 .button__full {
-  @apply bg-[#D21448] rounded-sm w-24 p-2 text-center text-white justify-self-center text-sm hover:bg-[#f7d7e0] hover:text-[#D21448] focus:outline-none focus:ring-2 focus:ring-[#D21448] active:bg-[#f7d7e0];
+  @apply bg-[#D21448] rounded-sm p-2 text-center text-white justify-self-center text-sm hover:bg-[#f7d7e0] hover:text-[#D21448] focus:outline-none focus:ring-2 focus:ring-[#D21448] active:bg-[#f7d7e0];
 }
 
 .button__text {
