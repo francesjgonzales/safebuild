@@ -14,10 +14,6 @@ const page = () => {
         <ProjTabs />
       </section>
 
-      <section>
-        <Article />
-      </section>
-
       <Location />
     </div>
   );

@@ -7,25 +7,17 @@ export const ProjTabs = () => {
   return (
     <Tab.Group manual>
       <Tab.List className="four-col bg-white">
-        <Tab>
-          <button className="button__outline text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0]">
-            Singapore
-          </button>
+        <Tab className="button__outline text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0] active:bg-[#D21448] active:text-white focus:bg-[#F7D7E0]">
+          Singapore
         </Tab>
-        <Tab>
-          <button className="button__outline text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0]">
-            Malaysia
-          </button>
+        <Tab className="button__outline text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0] active:bg-[#D21448] active:text-white focus:bg-[#F7D7E0]">
+          Malaysia
         </Tab>
-        <Tab>
-          <button className="button__outline text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0]">
-            United Kingdom
-          </button>
+        <Tab className="button__outline text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0] active:bg-[#D21448] active:text-white focus:bg-[#F7D7E0]">
+          United Kingdom
         </Tab>
-        <Tab>
-          <button className="button__outline text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0]">
-            China
-          </button>
+        <Tab className="button__outline text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0] active:bg-[#D21448] active:text-white focus:bg-[#F7D7E0]">
+          China
         </Tab>
       </Tab.List>
       <Tab.Panels className="bg-[#F2F2F2] py-10">
