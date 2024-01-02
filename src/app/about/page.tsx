@@ -3,8 +3,10 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <div className="one-col p-40 m-40">
-        <p className="header">About Us</p>
+      <div className="slider__medium bg-top bg-cover bg-[url('/assets/proj-hero-img.jpg')]">
+        <p className="text-3xl ">About Us</p>
+      </div>
+      <div className="one-col p-10 m-10">
         <br />
         <p className="header__paragraph">
           SafeBuild - Elevating Construction Excellence

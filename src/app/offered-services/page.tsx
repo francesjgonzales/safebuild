@@ -4,8 +4,10 @@ import Image from "next/image";
 const page = () => {
   return (
     <div>
-      <section className="one-col p-40 m-40">
-        <p className="header">Our Services</p>
+      <div className="slider__medium bg-top bg-cover bg-[url('/assets/proj-hero-img.jpg')]">
+        <p className="text-3xl ">Our Services</p>
+      </div>
+      <section className="one-col p-10 m-10">
         <p className="header__paragraph">
           SafeBuild has been rated by the Construction Authority as a Grade A1
           contractor in the Contractors Registry System, and also as a Class 1

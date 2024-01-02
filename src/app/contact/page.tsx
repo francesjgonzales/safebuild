@@ -4,8 +4,10 @@ import Image from "next/image";
 const page = () => {
   return (
     <div>
-      <div className="p-20 m-20">
-        <p className="header">Contact Us</p>
+      <div className="slider__medium bg-top bg-cover bg-[url('/assets/proj-hero-img.jpg')]">
+        <p className="text-3xl ">Contact Us</p>
+      </div>
+      <div className="p-10 m-10">
         <div className="two-col flex items-start">
           <div className="flex pt-10">
             <div>

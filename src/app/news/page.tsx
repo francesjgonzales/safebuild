@@ -3,9 +3,10 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <div className="articles">
-        <h1>News and Events</h1>
+      <div className="slider__medium bg-top bg-cover bg-[url('/assets/proj-hero-img.jpg')]">
+        <p className="text-3xl ">News and Events</p>
       </div>
+      <div className="articles"></div>
     </div>
   );
 };
