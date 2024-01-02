@@ -4,7 +4,6 @@ import Image from "next/image";
 export const Location = () => {
   return (
     <div>
-      {" "}
       <section className="one-col bg-[rgb(204,204,204)]">
         <div className="two-col flex items-start">
           <div className="flex">

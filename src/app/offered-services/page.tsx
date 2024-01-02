@@ -4,7 +4,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <div>
-      <section className="one-col">
+      <section className="one-col p-40 m-40">
         <p className="header">Our Services</p>
         <p className="header__paragraph">
           SafeBuild has been rated by the Construction Authority as a Grade A1
