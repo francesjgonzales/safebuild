@@ -6,8 +6,7 @@ const page = () => {
       <div className="slider__medium bg-top bg-cover bg-[url('/assets/proj-hero-img.jpg')]">
         <p className="text-3xl ">About Us</p>
       </div>
-      <div className="one-col p-10 m-10">
-        <br />
+      <div className="one-col p-10 m-10 px-40">
         <p className="header__paragraph">
           SafeBuild - Elevating Construction Excellence
         </p>
@@ -85,9 +84,9 @@ const page = () => {
           Safety, quality, and client satisfaction are at the core of everything
           we do.
         </p>
+        <br />
         <p className="header__paragraph">Forward Momentum</p>
         <p>
-          {" "}
           As we stride confidently into the future, SafeBuild remains committed
           to pushing the boundaries of construction excellence. Our dynamic
           team, cutting-edge technology, and a client-centric approach position

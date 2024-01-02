@@ -7,8 +7,8 @@ const page = () => {
       <div className="slider__medium bg-top bg-cover bg-[url('/assets/proj-hero-img.jpg')]">
         <p className="text-3xl ">Our Services</p>
       </div>
-      <section className="one-col p-10 m-10">
-        <p className="header__paragraph">
+      <section className="one-col p-10 m-10 px-40">
+        <p className="header__paragraph text-center">
           SafeBuild has been rated by the Construction Authority as a Grade A1
           contractor in the Contractors Registry System, and also as a Class 1
           General Builder under the Licensing of Builders.
