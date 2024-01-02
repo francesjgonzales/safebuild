@@ -1,7 +1,12 @@
+"use client";
+
 import { Slider, Location } from "@/components";
 import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 
-export default async function Home() {
+export default function Home() {
+  const [navbar, setNavbar] = useState(false);
   return (
     <>
       <Slider />
@@ -102,7 +107,11 @@ export default async function Home() {
           </div>
         </div>
         <p className="text-sm">
-          <button className="button__outline text-[#D21448]">Learn More</button>
+          <button className="button__outline text-[#D21448] hover:bg-[#f7d7e0] hover:text-[#D21448]">
+            <Link href="/offered-services/" onClick={() => setNavbar(!navbar)}>
+              Learn More
+            </Link>
+          </button>
         </p>
       </section>
 
@@ -192,8 +201,10 @@ export default async function Home() {
               and expertise of our entire team.
             </p>
             <p className="text-sm pt-10">
-              <button className="button__outline text-[#D21448]">
-                Learn More
+              <button className="button__outline text-[#D21448] hover:bg-[#f7d7e0] hover:text-[#D21448]">
+                <Link href="/projects/" onClick={() => setNavbar(!navbar)}>
+                  Learn More
+                </Link>
               </button>
             </p>
           </div>
@@ -245,8 +256,14 @@ export default async function Home() {
               milestone for our company, our partners, and the local community,
               and we look forward to the opportunities it will bring.
             </p>
-            <p className="text-sm pt-10">
-              <button className="button__full">Read More</button>
+            <p className="text-sm pt-10  ">
+              <Link
+                href="/news/"
+                className="text-[#D21448] hover:text-gray-500 active:text-[#D21448]"
+                onClick={() => setNavbar(!navbar)}
+              >
+                Read More
+              </Link>
             </p>
           </div>
         </div>
