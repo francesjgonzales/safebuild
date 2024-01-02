@@ -18,15 +18,15 @@
 
 /* START Column articles */
 .one-col {
-  @apply grid grid-cols-1 pt-10 place-items-center gap-6;
+  @apply grid grid-cols-1 py-10 place-items-center gap-6;
 }
 
 .two-col {
-  @apply grid md:grid-cols-2 sm:grid-cols-1 pt-10 place-items-center gap-6;
+  @apply grid md:grid-cols-2 sm:grid-cols-1 py-10 place-items-center gap-6;
 }
 
 .three-col {
-  @apply grid md:grid-cols-3 sm:grid grid-cols-1 justify-items-center pt-10 gap-16;
+  @apply grid md:grid-cols-3 sm:grid grid-cols-1 justify-items-center py-10 gap-16;
 }
 
 .four-col {
@@ -34,7 +34,7 @@
 }
 
 .six-col {
-  @apply grid md:grid-cols-6 sm:grid grid-cols-3 justify-items-center pt-10 gap-3;
+  @apply grid md:grid-cols-6 sm:grid grid-cols-3 justify-items-center py-10 gap-3;
 }
 
 /* Customized colors */
@@ -62,7 +62,7 @@
 }
 
 .header__paragraph {
-  @apply text-xl text-neutral-700 text-center;
+  @apply text-xl text-neutral-700;
 }
 
 .subheader {
