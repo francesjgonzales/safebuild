@@ -1,0 +1,4 @@
+type News @model {
+  title: String!
+  article: String!
+}

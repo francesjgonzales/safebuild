@@ -13,10 +13,10 @@ g.datasource(pg);
 
 // Resolvers - https://grafbase.com/docs/resolvers
 //
-// g.query('helloWorld', {
-//   returns: g.string(),
-//   resolver: 'hello-world',
-// })
+/* g.query("helloWorld", {
+  returns: g.string(),
+  resolver: "hello-world",
+}); */
 
 export default config({
   graph: g,
@@ -30,13 +30,13 @@ export default config({
     },
   },
   // Caching - https://grafbase.com/docs/graphql-edge-caching
-  // cache: {
-  //   rules: [
-  //     {
-  //       types: ['Query'], // Cache everything for 60 seconds
-  //       maxAge: 60,
-  //       staleWhileRevalidate: 60
-  //     }
-  //   ]
-  // }
+  cache: {
+    rules: [
+      {
+        types: ["Query"], //Cache everything for 60 seconds
+        maxAge: 60,
+        staleWhileRevalidate: 60,
+      },
+    ],
+  },
 });
