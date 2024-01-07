@@ -6,10 +6,8 @@ import { graph, config } from "@grafbase/sdk";
 
 const g = graph.Standalone();
 
-g.query("hello", {
-  args: { name: g.string().optional() },
-  returns: g.string(),
-  resolver: "hello",
+const user = g.type("User", {
+  name: g.string().optional(),
 });
 
 export default config({
