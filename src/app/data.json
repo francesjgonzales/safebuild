@@ -1,0 +1,24 @@
+{
+  "news": [
+    {
+      "date": "01-01-22",
+      "title": "Project Kickoff",
+      "article": "The construction and development project officially began on January 1, 2022. The team is excited and ready to tackle the challenges ahead."
+    },
+    {
+      "date": "15-02-22",
+      "title": "Milestone Achieved",
+      "article": "A significant milestone was achieved in the project, marking a successful phase completion. The construction is progressing according to the schedule."
+    },
+    {
+      "date": "10-03-22",
+      "title": "Innovative Design Approaches",
+      "article": "Exploring innovative design approaches has been a key focus in the project's development phase. The team is incorporating cutting-edge solutions for sustainable construction."
+    },
+    {
+      "date": "05-04-22",
+      "title": "Community Engagement",
+      "article": "Engaging with the local community is an integral part of our project. We conducted community meetings to gather feedback and ensure our development aligns with community needs."
+    }
+  ]
+}

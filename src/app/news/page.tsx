@@ -1,14 +1,16 @@
-import React from "react";
+import ArticleList from "./ArticleList";
 
-const page = () => {
-  return (
-    <div className="articles">
-      <div className="slider__medium bg-top bg-cover bg-[url('/assets/proj-hero-img.jpg')]">
-        <p className="text-3xl ">News and Events</p>
-      </div>
-      <div className="articles"></div>
-    </div>
-  );
-};
+export default function Articles() {
+  return <ArticleList />;
+}
 
-export default page;
+// import React from "react";
+// import ArticleList from "./ArticleList";
+
+// export const page = () => {
+//   return (
+//     <div>
+//       <ArticleList />
+//     </div>
+//   );
+// };

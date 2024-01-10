@@ -37,6 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Dependencies
 
+[json-server]`npm install json-server --save-dev`
 [headlessui](https://headlessui.com/react/transition)
 [heroicons](https://heroicons.com/)
 [iconify] `npm install --save-dev @iconify/react`
@@ -45,6 +46,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Credits
 
+[Next.js 13 Crash Course Tutorial #6 - Fetching & Revalidating Data
+](https://www.youtube.com/watch?v=PAXWRgEo7Ns)
 [data fetching](https://nextjs.org/docs/pages/building-your-application/data-fetching)
 [icons](https://iconify.design/docs/icon-components/react/)
 [Responsive Navbar by Code with Rita](https://www.youtube.com/watch?v=EtPRSidpxSU)
