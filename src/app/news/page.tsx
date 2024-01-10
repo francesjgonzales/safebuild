@@ -1,16 +1,14 @@
 import ArticleList from "./ArticleList";
 
 export default function Articles() {
-  return <ArticleList />;
+  return (
+    <div>
+      <div className="slider__medium bg-top bg-cover bg-[url('/assets/proj-hero-img.jpg')]">
+        <p className="text-3xl ">News & Events</p>
+      </div>
+      <div className="p-10 m-10">
+        <ArticleList />
+      </div>
+    </div>
+  );
 }
-
-// import React from "react";
-// import ArticleList from "./ArticleList";
-
-// export const page = () => {
-//   return (
-//     <div>
-//       <ArticleList />
-//     </div>
-//   );
-// };

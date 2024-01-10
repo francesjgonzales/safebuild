@@ -9,9 +9,11 @@ export default async function ArticleList() {
   const articles = await getArticles();
   return (
     <>
-      {articles.map((news) => (
-        <div key={news.id} className="card my-5">
-          <p>{news.article}</p>
+      {articles.map((article) => (
+        <div key={article.id} className="card my-5">
+          <p className="py-10 subheader">{article.title}</p>
+          <p>{article.date}</p>
+          <p>{article.article}</p>
         </div>
       ))}
     </>
