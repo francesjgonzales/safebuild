@@ -3,9 +3,7 @@
 import { Key } from "react";
 
 async function getArticles() {
-  const res = await fetch(
-    "https://safebuild-git-master-francesjgonzales-projects.vercel.app/news"
-  );
+  const res = await fetch("http://localhost:4000/news");
   return res.json();
 }
 
