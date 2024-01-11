@@ -3,7 +3,9 @@
 import { Key } from "react";
 
 async function getArticles() {
-  const res = await fetch("./app/data.json");
+  const res = await fetch(
+    "https://safebuild-git-master-francesjgonzales-projects.vercel.app/news"
+  );
   return res.json();
 }
 
