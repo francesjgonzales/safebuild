@@ -3,7 +3,7 @@
 import { Key } from "react";
 
 async function getArticles() {
-  const res = await fetch("http://localhost:4000/news");
+  const res = await fetch("./app/data.json");
   return res.json();
 }
 
