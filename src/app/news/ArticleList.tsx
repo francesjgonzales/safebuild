@@ -3,7 +3,9 @@
 import { Key } from "react";
 
 async function getArticles() {
-  const res = await fetch("http://localhost:4000/news");
+  const res = await fetch(
+    "https://my-json-server.typicode.com/francesjgonzales/safebuild-json/news"
+  );
   return res.json();
 }
 
