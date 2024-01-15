@@ -55,3 +55,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 [nextjs](https://www.youtube.com/watch?v=zbYBgy_ChGY)
 [tailwind](https://tailwindcss.com/docs/responsive-design)
 [tailwind navbar by Coding Playground](https://github.com/vlahou89/nextjs-tailwindcss-navbar/blob/main/components/NavBar.jsx)
+
+(https://my-json-server.typicode.com/typicode/demo)

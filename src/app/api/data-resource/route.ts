@@ -14,6 +14,7 @@ export async function GET() {
   return NextResponse.json(articles);
 }
 
+//DELETE request handler
 export async function DELETE(request: Request) {
   const { id }: Partial<Article> = await request.json();
   if (!id) return NextResponse.json({ message: "Article id required" });
@@ -25,4 +26,50 @@ export async function DELETE(request: Request) {
     },
   });
   return NextResponse.json({ message: `Article ${id} deleted` });
+}
+
+//POST request handler
+export async function POST(request: Request) {
+  const { id, title }: Partial<Article> = await request.json();
+  if (!id || !title)
+    return NextResponse.json({ message: "Missing data required" });
+
+  const res = await fetch(DATA_SOURCE_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "API-Key": API_KEY,
+    },
+    body: JSON.stringify({
+      id,
+      title,
+      completed: false,
+    }),
+  });
+  const newArticle: Article = await res.json();
+  return NextResponse.json(newArticle);
+}
+
+//PUT request handler
+export async function PUT(request: Request) {
+  const { id, date, title, article, completed }: Partial<Article> =
+    await request.json();
+  if (!id || !title || !date || !article || typeof completed !== "boolean")
+    return NextResponse.json({ message: "Missing data required" });
+
+  const res = await fetch(`${DATA_SOURCE_URL}/${id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      "API-Key": API_KEY,
+    },
+    body: JSON.stringify({
+      date,
+      title,
+      article,
+      completed,
+    }),
+  });
+  const updatedArticle: Article = await res.json();
+  return NextResponse.json(updatedArticle);
 }
