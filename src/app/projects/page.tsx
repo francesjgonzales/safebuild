@@ -9,7 +9,7 @@ const page = () => {
         <p className="text-3xl ">Our Projects</p>
       </div>
 
-      <section className="Article">
+      <section>
         {/* Project tabs */}
         <ProjTabs />
       </section>

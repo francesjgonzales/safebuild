@@ -23,7 +23,7 @@ export const ProjTabs = () => {
       <Tab.Panels className="bg-[#F2F2F2] py-10">
         <Tab.Panel>
           <p className="header">Singapore</p>
-          <div className="six-col px-20">
+          <div className="px-20">
             <button className="button__outline-sm text-[#D21448] hover:text-[#D21448] hover:bg-[#F7D7E0]">
               Institution
             </button>
@@ -43,7 +43,7 @@ export const ProjTabs = () => {
               Industrial
             </button>
           </div>
-          <div className="three-col">
+          <div className="m-10 p-10">
             <div className="place-items-baseline">
               <Image
                 src="/assets/institution.jpg"

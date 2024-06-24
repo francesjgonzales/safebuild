@@ -6,71 +6,58 @@ import Image from "next/image";
 import { useState } from "react";
 
 export const Navbar = () => {
-  const [navbar, setNavbar] = useState(false);
+  const [isNotOpen, setNavbarIsOpen] = useState(false);
   return (
-    <nav className="">
+    <nav className="p-10 flex justify-between content-start">
       {/* LOGO */}
-      <div className="flex justice-between">
-        <div className="">
-          <Link href="/">
-            <Image
-              src="/assets/safebuild-logo.png"
-              width={100}
-              height={30}
-              alt="safebuild logo"
-            />
+      <div className="text-right">
+        <Link href="/">
+          <Image
+            src="/assets/safebuild-logo.png"
+            width={100}
+            height={30}
+            alt="safebuild logo"
+          />
+        </Link>
+      </div>
+
+      {/* Hamburg button */}
+      <button
+        className="focus:border-gray-400 md:hidden text-right content-start"
+        onClick={() => setNavbarIsOpen(!isNotOpen)}
+      >
+        {isNotOpen ? (
+          <Image src="/close.svg" width={30} height={30} alt="close" />
+        ) : (
+          <Image src="/hamburger-md.svg" width={30} height={30} alt="logo" />
+        )}
+      </button>
+
+      {/* menu menu */}
+      <div
+        className={`pb-3 mt-8 md:inline-flex gap-12 md:pb-0 md:mt-0 ${
+          isNotOpen ? "block" : "hidden"
+        }`}
+      >
+        <div className="text-right flex gap-4 flex-col md:flex-row">
+          <Link href="/about/" onClick={() => setNavbarIsOpen(!isNotOpen)}>
+            About Us
           </Link>
-        </div>
-
-        {/* Hamburg button */}
-        <div className="text-right md:hidden">
-          <button
-            className="focus:border-gray-400"
-            onClick={() => setNavbar(!navbar)}
+          <Link
+            href="/offered-services/"
+            onClick={() => setNavbarIsOpen(!isNotOpen)}
           >
-            {navbar ? (
-              <Image src="/close.svg" width={30} height={30} alt="close" />
-            ) : (
-              <Image
-                src="/hamburger-md.svg"
-                width={30}
-                height={30}
-                alt="logo"
-              />
-            )}
-          </button>
-        </div>
-
-        <div
-          className={`pb-3 mt-8 md:inline-flex gap-12 md:pb-0 md:mt-0 ${
-            navbar ? "p-12 md:p-0 block" : "hidden"
-          }`}
-        >
-          <div className="text-right">
-            <Link href="/about/" onClick={() => setNavbar(!navbar)}>
-              About Us
-            </Link>
-          </div>
-          <div className="text-right">
-            <Link href="/offered-services/" onClick={() => setNavbar(!navbar)}>
-              Services
-            </Link>
-          </div>
-          <div className="text-right">
-            <Link href="/projects/" onClick={() => setNavbar(!navbar)}>
-              Projects
-            </Link>
-          </div>
-          <div className="text-right">
-            <Link href="/news/" onClick={() => setNavbar(!navbar)}>
-              News & Events
-            </Link>
-          </div>
-          <div className="text-right">
-            <Link href="/contact/" onClick={() => setNavbar(!navbar)}>
-              Contact Us
-            </Link>
-          </div>
+            Services
+          </Link>
+          <Link href="/projects/" onClick={() => setNavbarIsOpen(!isNotOpen)}>
+            Projects
+          </Link>
+          <Link href="/news/" onClick={() => setNavbarIsOpen(!isNotOpen)}>
+            News & Events
+          </Link>
+          <Link href="/contact/" onClick={() => setNavbarIsOpen(!isNotOpen)}>
+            Contact Us
+          </Link>
         </div>
       </div>
     </nav>

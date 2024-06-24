@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <>
       <Slider />
-      <section className="one-col">
+      <section className="one-col md:p-10 m-10">
         <p className="header">Our Services</p>
-        <p className="header__paragraph">
+        <p className="header__paragraph px-10 mx-10">
           SafeBuild has been rated by the Construction Authority as a Grade A1
           contractor in the Contractors Registry System, and also as a Class 1
           General Builder under the Licensing of Builders.
@@ -115,10 +115,10 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="one-col bg-[#F7D7E0]">
+      <section className="bg-[#F7D7E0] one-col">
         <p className="header">Our Projects</p>
 
-        <div className="three-col">
+        <div className="p-10 m-10 three-col">
           <div className="place-items-baseline">
             <Image
               src="/assets/institution-1.jpg"
@@ -185,7 +185,10 @@ export default function Home() {
               <p className="text-center">INDUSTRIAL</p>
             </div>
           </div>
-          <div className="place-items-baseline col-span-2">
+        </div>
+
+        <div className="p-10 m-10 two-col">
+          <div className="place-items-baseline ">
             <Image
               src="/assets/intl-prop-1.jpg"
               width={1024}
@@ -213,7 +216,7 @@ export default function Home() {
 
       <section className="one-col">
         <p className="header">News and Events</p>
-        <div className="two-col">
+        <div className="two-col p-10 m-10">
           <div>
             <Image
               src="/assets/newsletter-1.jpg"

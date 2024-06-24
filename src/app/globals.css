@@ -13,7 +13,7 @@
 
 /* START Margins and Paddings */
 .body {
-  @apply mx-auto bg-slate-100;
+  @apply m-auto bg-slate-100;
 }
 
 /* START Column articles */
@@ -26,7 +26,7 @@
 }
 
 .three-col {
-  @apply grid md:grid-cols-3 sm:grid grid-cols-1 justify-items-center py-10 gap-16;
+  @apply grid md:grid-cols-3 sm:grid grid-cols-2 justify-items-center py-10 gap-16;
 }
 
 .four-col {
