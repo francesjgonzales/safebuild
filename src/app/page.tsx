@@ -226,13 +226,13 @@ export default function Home() {
             />
           </div>
           <div>
-            <p>2023</p>
-            <p>
+            <p className="text-lg">2023</p>
+            <p className="header__paragraph my-5">
               Construction Firm Secures $1 Billion Project Deal for One-Year
               Duration
             </p>
-            <p>21 January 2023</p>
-            <p>
+            <p className="my-5">21 January 2023</p>
+            <p className="pt-10">
               We are excited to announce that our construction firm has
               successfully closed a project deal worth 1 billion dollars, which
               will run for one year. This is a significant milestone for our

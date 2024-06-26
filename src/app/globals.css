@@ -22,7 +22,7 @@
 }
 
 .two-col {
-  @apply grid md:grid-cols-2 sm:grid-cols-1 py-10 place-items-center gap-6;
+  @apply grid md:grid-cols-2 sm:grid-cols-1 py-10 gap-6;
 }
 
 .three-col {
@@ -62,7 +62,7 @@
 }
 
 .header__paragraph {
-  @apply text-xl text-neutral-700;
+  @apply text-2xl text-neutral-700;
 }
 
 .subheader {
